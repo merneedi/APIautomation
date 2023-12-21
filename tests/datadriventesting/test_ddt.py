@@ -48,7 +48,7 @@ def make_request_auth(username,password):
     return response
 
 def test_post_create_token():
-    file_path = "testdata_ddt.xlsx"
+    file_path = "testdata_ddrt.xlsx"
     #make request_auth -> Run this func, Row that we have in excel
     credentials = read_credentials_from_excel(file_path)
 

@@ -48,7 +48,7 @@ def make_request_auth(username,password):
     return response
 
 
-@pytest.mark.parametrize("user_cred", read_credentials_from_excel("testdata_ddt.xlsx"))
+@pytest.mark.parametrize("user_cred", read_credentials_from_excel("testdata_ddrt.xlsx"))
 def test_post_create_token(user_cred):
     username = user_cred["username"]
     password = user_cred['password']
